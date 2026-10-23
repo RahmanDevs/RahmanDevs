@@ -56,7 +56,7 @@
 
 <!-- Interactive Lifecycle Tabs -->
 <details open>
-  <summary><b>📂 [TAB 1] 📥 Phase 01: Ingestion & Lakehouse Architecture</b></summary>
+  <summary><b>📂 📥 Phase 01: Ingestion & Lakehouse Architecture</b></summary>
   <br/>
   <table>
     <tr>
@@ -80,7 +80,7 @@
 </details>
 
 <details>
-  <summary><b>📂 [TAB 2] ⚡ Phase 02: Transformation, Cleansing & Feature Engineering</b></summary>
+  <summary><b>📂 ⚡Phase 02: Transformation, Cleansing & Feature Engineering</b></summary>
   <br/>
   <table>
     <tr>
@@ -104,7 +104,7 @@
 </details>
 
 <details>
-  <summary><b>📂 [TAB 3] 🧠 Phase 03: AI Modeling, Semantic RAG & Deep Learning</b></summary>
+  <summary><b>📂 🧠 Phase 03: AI Modeling, Semantic RAG & Deep Learning</b></summary>
   <br/>
   <table>
     <tr>
@@ -129,7 +129,7 @@
 </details>
 
 <details>
-  <summary><b>📂 [TAB 4] 🚀 Phase 04: Production MLOps, Containerization & API Serving</b></summary>
+  <summary><b>📂 🚀 Phase 04: Production MLOps, Containerization & API Serving</b></summary>
   <br/>
   <table>
     <tr>
