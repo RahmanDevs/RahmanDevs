@@ -1,7 +1,7 @@
 <div align="center">
 
-  <!-- Header Banner -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&custom_color_list=0:0B0F19,40:111827,70:0369A1,100:0EA5E9&height=230&section=header&text=Abdurrahman%20Al-Atsary&fontSize=42&fontColor=F8FAFC&animation=fadeIn&fontAlignY=38&desc=AI%20Engineer%20%7C%20Data%20Engineer&descSize=19&descColor=38BDF8&descAlignY=58" width="100%" alt="Header Banner" />
+<!-- Header Banner -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&custom_color_list=0:450A0A,40:7F1D1D,70:B91C1C,100:EF4444&height=230&section=header&text=Abdurrahman%20Al-Atsary&fontSize=42&fontColor=FFFFFF&animation=fadeIn&fontAlignY=38&desc=AI%20Engineer%20%7C%20Data%20Engineer&descSize=19&descColor=FCA5A5&descAlignY=58" width="100%" alt="Header Banner" />
 
   <!-- Dynamic Typing Subtitle -->
   <a href="https://github.com/RahmanDevs">
