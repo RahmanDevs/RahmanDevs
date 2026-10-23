@@ -25,20 +25,132 @@
 
 ---
 
-### ⚡ The Intersection of Data & Intelligence
+### ⚡ End-to-End Data & AI Lifecycle
 
-```text
-┌─────────────────────────────────────────────────────────────────────────────────┐
-│                           END-TO-END DATA & AI LIFECYCLE                        │
-├───────────────────────────────┬─────────────────┬───────────────────────────────┤
-│    DATA INGESTION & STORAGE   │   TRANSFORM     │      AI & MODEL INFERENCE     │
-│   Streaming / Batch / SQL     │   ETL / Feature │   LLM / RAG / Vision / MLOps  │
-│   Kafka • PostgreSQL • MinIO  │   Pandas • Spark│   PyTorch • TF • FastAPI      │
-└───────────────────────────────┴─────────────────┴───────────────────────────────┘
-```
+> **"Data is the foundation; AI is the intelligence."**  
+> I engineer the entire lifecycle from raw data ingestion and pipeline orchestration to deep learning and production model serving.
 
-> **"Data is the fuel; AI is the engine."**  
-> I bridge the gap between heavy-duty **Data Engineering** (scalable pipelines, robust data modeling, streaming/batch processing) and high-impact **AI Engineering** (deep learning, computer vision, modern RAG systems, and production model serving).
+<!-- Visual Pipeline Architecture Bar -->
+<table width="100%">
+  <tr align="center">
+    <td width="25%">
+      <img src="https://img.shields.io/badge/PHASE_01-INGESTION-38BDF8?style=for-the-badge&logo=apachekafka&logoColor=white" /><br/>
+      <sub><b>📥 Data Ingestion & Storage</b></sub>
+    </td>
+    <td width="25%">
+      <img src="https://img.shields.io/badge/PHASE_02-PIPELINES-6366F1?style=for-the-badge&logo=apachespark&logoColor=white" /><br/>
+      <sub><b>⚡ Transformation & ETL</b></sub>
+    </td>
+    <td width="25%">
+      <img src="https://img.shields.io/badge/PHASE_03-INTELLIGENCE-A855F7?style=for-the-badge&logo=pytorch&logoColor=white" /><br/>
+      <sub><b>🧠 AI Models, RAG & LLMs</b></sub>
+    </td>
+    <td width="25%">
+      <img src="https://img.shields.io/badge/PHASE_04-PRODUCTION-10B981?style=for-the-badge&logo=fastapi&logoColor=white" /><br/>
+      <sub><b>🚀 Serving, APIs & MLOps</b></sub>
+    </td>
+  </tr>
+</table>
+
+<br/>
+
+<!-- Interactive Lifecycle Tabs -->
+<details open>
+  <summary><b>📂 [TAB 1] 📥 Phase 01: Ingestion & Lakehouse Architecture</b></summary>
+  <br/>
+  <table>
+    <tr>
+      <th align="left" width="25%">🎯 Mission</th>
+      <td>Capturing raw telemetry, streaming messages, and transactional tables with zero data loss.</td>
+    </tr>
+    <tr>
+      <th align="left">🔄 Flow</th>
+      <td><code>IoT / REST APIs / DB Logs</code> ➔ <code>Kafka / SQLite / PostgreSQL / Landing Zone</code></td>
+    </tr>
+    <tr>
+      <th align="left">🛠️ Key Tech</th>
+      <td>
+        <img src="https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white" />
+        <img src="https://img.shields.io/badge/SQLite-07405E?style=flat-square&logo=sqlite&logoColor=white" />
+        <img src="https://img.shields.io/badge/Apache_Kafka-231F20?style=flat-square&logo=apache-kafka&logoColor=white" />
+        <img src="https://img.shields.io/badge/Bash_Scripts-4EAA25?style=flat-square&logo=gnubash&logoColor=white" />
+      </td>
+    </tr>
+  </table>
+</details>
+
+<details>
+  <summary><b>📂 [TAB 2] ⚡ Phase 02: Transformation, Cleansing & Feature Engineering</b></summary>
+  <br/>
+  <table>
+    <tr>
+      <th align="left" width="25%">🎯 Mission</th>
+      <td>Cleaning messy real-world datasets, validating schemas, handling missing values, and generating feature tables.</td>
+    </tr>
+    <tr>
+      <th align="left">🔄 Flow</th>
+      <td><code>Raw Staging Data</code> ➔ <code>Deduplicated & Cleaned Feature Store</code></td>
+    </tr>
+    <tr>
+      <th align="left">🛠️ Key Tech</th>
+      <td>
+        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
+        <img src="https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white" />
+        <img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white" />
+        <img src="https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white" />
+      </td>
+    </tr>
+  </table>
+</details>
+
+<details>
+  <summary><b>📂 [TAB 3] 🧠 Phase 03: AI Modeling, Semantic RAG & Deep Learning</b></summary>
+  <br/>
+  <table>
+    <tr>
+      <th align="left" width="25%">🎯 Mission</th>
+      <td>Training high-accuracy predictive models, building vector retrieval systems, and architecting GenAI workflows.</td>
+    </tr>
+    <tr>
+      <th align="left">🔄 Flow</th>
+      <td><code>Curated Features & Unstructured Data</code> ➔ <code>Fine-tuned Weights, Vector Embeddings & Evaluated Models</code></td>
+    </tr>
+    <tr>
+      <th align="left">🛠️ Key Tech</th>
+      <td>
+        <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white" />
+        <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" />
+        <img src="https://img.shields.io/badge/Keras-D00000?style=flat-square&logo=keras&logoColor=white" />
+        <img src="https://img.shields.io/badge/Scikit_Learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white" />
+        <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white" />
+      </td>
+    </tr>
+  </table>
+</details>
+
+<details>
+  <summary><b>📂 [TAB 4] 🚀 Phase 04: Production MLOps, Containerization & API Serving</b></summary>
+  <br/>
+  <table>
+    <tr>
+      <th align="left" width="25%">🎯 Mission</th>
+      <td>Packaging models into low-latency REST microservices, automated container builds, and deployment.</td>
+    </tr>
+    <tr>
+      <th align="left">🔄 Flow</th>
+      <td><code>Model Artifacts & Vector DB</code> ➔ <code>Dockerized FastAPI Microservices & Live Predictions</code></td>
+    </tr>
+    <tr>
+      <th align="left">🛠️ Key Tech</th>
+      <td>
+        <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" />
+        <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" />
+        <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" />
+        <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white" />
+      </td>
+    </tr>
+  </table>
+</details>
 
 ---
 
@@ -106,7 +218,11 @@
 ### 🐍 Contribution Activity
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/RahmanDevs/RahmanDevs/output/github-contribution-grid-snake-dark.svg" alt="Snake animation" onerror="this.src='https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake.svg'" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/RahmanDevs/RahmanDevs/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/RahmanDevs/RahmanDevs/output/github-contribution-grid-snake.svg">
+    <img alt="Abdurrahman's GitHub Contribution Grid Snake Animation" src="https://raw.githubusercontent.com/RahmanDevs/RahmanDevs/output/github-contribution-grid-snake-dark.svg" width="100%" />
+  </picture>
 </div>
 
 ---
